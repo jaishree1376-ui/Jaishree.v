@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spicy Delight Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+        }
+        header {
+            background-color: #8b0000;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        header a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        section, article {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #8b0000;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        form {
+            background-color: #ffe4c4;
+            padding: 15px;
+            width: 300px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 8px;
+            background-color: #8b0000;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Spicy Delight</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#booking">Book Table</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Section 1: About Restaurant -->
+        <section id="about">
+            <h2>About Our Restaurant</h2>
+            <p>
+                Spicy Delight is a family restaurant serving tasty and hygienic food.
+                We offer traditional and modern dishes with rich flavors.
+            </p>
+        </section>
+
+        <!-- Section 2: Food Menu -->
+        <section id="menu">
+            <h2>Food Menu</h2>
+            <ul>
+                <li>Idli & Sambar</li>
+                <li>Veg Biryani</li>
+                <li>Chicken Biryani</li>
+                <li>Paneer Butter Masala</li>
+                <li>Gulab Jamun</li>
+            </ul>
+        </section>
+
+        <!-- Article: Chef's Special -->
+        <article>
+            <h2>Chef's Special</h2>
+            <p>
+                Our Chef’s Special Chicken Biryani is cooked with secret spices
+                and served hot for a royal taste.
+            </p>
+        </article>
+
+        <!-- Part 2: Table Booking Form -->
+        <section id="booking">
+            <h2>Table Booking</h2>
+            <form>
+                <label>Name:
+                    <input type="text" required>
+                </label>
+
+                <label>Email:
+                    <input type="email" required>
+                </label>
+
+                <label>Number of Guests:
+                    <input type="number" required>
+                </label>
+
+                <label>Food Preference:</label>
+                <input type="radio" name="food"> Veg
+                <input type="radio" name="food"> Non-Veg
+
+                <label>Meal Type:</label>
+                <select>
+                    <option>Breakfast</option>
+                    <option>Lunch</option>
+                    <option>Dinner</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Address: 123, Main Road, Chennai <br>
+            Contact: 98765 43210
+        </p>
+    </footer>
+
+</body>
+</html>
